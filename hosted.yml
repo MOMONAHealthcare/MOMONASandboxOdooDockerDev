@@ -9,4 +9,4 @@ services:
     #  dockerfile: Dockerfile
     volumes:
       # Host paths (odoo src code & .vscode conf)
-      - ./src/odoo:/${ODOO_BASEPATH}:delegated
+      - ./srcs/odoo:/${ODOO_BASEPATH}:delegated
